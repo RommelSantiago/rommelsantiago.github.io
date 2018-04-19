@@ -213,6 +213,15 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
 }
+.hero-content h1:before {
+  color: blue;
+  content: "B";
+}
+.hero-content h1:after {
+  color: red;
+  content: "A";
+}
+
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
